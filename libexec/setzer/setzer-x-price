@@ -43,7 +43,6 @@ ORIGIN_GSU_URL="${ORIGIN_GSU_URL:-https://api.gsucoin.app/Products/GSULive/?symb
 ORIGIN_GSU_1_URL="${ORIGIN_GSU_1_URL:-https://api1.gsucoin.app/Products/GSULive/?symbol}"
 ORIGIN_GSU_2_URL="${ORIGIN_GSU_2_URL:-https://api2.gsucoin.app/Products/GSULive/?symbol}"
 
-
 # Wrap curl and surface error on mismatch of expected HTTP status
 curl_stat() {
     expected="$1"; shift;
